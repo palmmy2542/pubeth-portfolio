@@ -33,7 +33,7 @@ function renderPortfolio({ portfolio = [] }) {
     const sub_title = port[`[${lang}]sub_title`] || "";
     htmlContent += `<a
     class="item-portfolio-static gallery masonry_item portfolio-33-33 cat--3"
-    href="/portfolio-details/?id=${port.id}"
+    href="/portfolio-details/index.html?id=${port.id}"
   >
     <div class="portfolio-static">
       <div class="thumbnail-inner">
@@ -131,7 +131,7 @@ function renderRandomPortfolio({ portfolio = [] }) {
     htmlContent += ` <div class="col-lg-6 col-md-6 col-12">
     <div class="related-work text-center mt--30">
       <div class="thumb">
-        <a href="/portfolio-details/?id=${port.id}">
+        <a href="/portfolio-details/index.html?id=${port.id}">
           <img
             src="${port.cover_image}"
             alt="Portfolio-images"
@@ -140,7 +140,9 @@ function renderRandomPortfolio({ portfolio = [] }) {
       </div>
       <div class="inner">
         <h4>
-          <a href="/portfolio-details/?id=${port.id}">${port.title}</a>
+          <a href="/portfolio-details/index.html?id=${port.id}">${
+      port.title
+    }</a>
         </h4>
         <span class="category">${CATEGORY[port.type]}</span>
       </div>
