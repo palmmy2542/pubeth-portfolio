@@ -7,9 +7,24 @@
 }
 
 .portfolio-showcase {
-  height: 100% !important;
   display: flex;
   flex-wrap: wrap;
+  padding: 16px;
+  a {
+    flex: 1 1 auto;
+    max-width: 100%;
+    padding: 16px;
+    width: auto;
+    @media only screen and (min-width: 767px) {
+      max-width: 50%;
+    }
+    @media only screen and (min-width: 992px) {
+      max-width: 33%;
+    }
+  }
+  a.item-portfolio-static {
+    margin: 0;
+  }
 }
 
 .line-clamp--3 {
