@@ -190,149 +190,20 @@
                 </div>
               </div>
             </div>
-            <div class="row">
-              <!-- Start Single Portfolio  -->
-              <div class="col-lg-4 col-md-6 col-sm-6 col-12 mt--40">
-                <div class="portfolio">
-                  <a href="/portfolio-details">
-                    <div class="thumbnail-inner">
-                      <div class="thumbnail image-1"></div>
-                      <div class="bg-blr-image image-1"></div>
-                    </div>
-                    <div class="content">
-                      <div class="inner">
-                        <p>Development</p>
-                        <h4>Getting tickets to the big show</h4>
-                        <div class="portfolio-button">
-                          <span class="rn-btn">Explore</span>
-                        </div>
-                      </div>
-                    </div>
-                  </a>
+            <!-- Start Gallery Area  -->
+            <div
+              class="rn-gallery-area rn-section-gap bg_color--1 position-relative"
+            >
+              <div class="rn-masonary-wrapper">
+                <div class="wrapper plr--70 plr_sm--30 plr_md--30">
+                  <div
+                    class="gallery-wrapper gallery-grid mesonry-list grid-metro3 portfolio-showcase"
+                    id="animated-thumbnials"
+                  ></div>
                 </div>
               </div>
-              <!-- End Single Portfolio  -->
-
-              <!-- Start Single Portfolio  -->
-              <div class="col-lg-4 col-md-6 col-sm-6 col-12 mt--40">
-                <div class="portfolio">
-                  <div class="thumbnail-inner">
-                    <div class="thumbnail image-2"></div>
-                    <div class="bg-blr-image image-2"></div>
-                  </div>
-                  <div class="content">
-                    <div class="inner">
-                      <p>Development</p>
-                      <h4>
-                        <a href="/portfolio-details"
-                          >Getting tickets to the big show</a
-                        >
-                      </h4>
-                      <div class="portfolio-button">
-                        <a class="rn-btn" href="/portfolio-details">Explore</a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <!-- End Single Portfolio  -->
-
-              <!-- Start Single Portfolio  -->
-              <div class="col-lg-4 col-md-6 col-sm-6 col-12 mt--40">
-                <div class="portfolio">
-                  <div class="thumbnail-inner">
-                    <div class="thumbnail image-3"></div>
-                    <div class="bg-blr-image image-3"></div>
-                  </div>
-                  <div class="content">
-                    <div class="inner">
-                      <p>Development</p>
-                      <h4>
-                        <a href="/portfolio-details"
-                          >Getting tickets to the big show</a
-                        >
-                      </h4>
-                      <div class="portfolio-button">
-                        <a class="rn-btn" href="/portfolio-details">Explore</a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <!-- End Single Portfolio  -->
-
-              <!-- Start Single Portfolio  -->
-              <div class="col-lg-4 col-md-6 col-sm-6 col-12 mt--40">
-                <div class="portfolio">
-                  <div class="thumbnail-inner">
-                    <div class="thumbnail image-4"></div>
-                    <div class="bg-blr-image image-4"></div>
-                  </div>
-                  <div class="content">
-                    <div class="inner">
-                      <p>Development</p>
-                      <h4>
-                        <a href="/portfolio-details"
-                          >Getting tickets to the big show</a
-                        >
-                      </h4>
-                      <div class="portfolio-button">
-                        <a class="rn-btn" href="/portfolio-details">Explore</a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <!-- End Single Portfolio  -->
-
-              <!-- Start Single Portfolio  -->
-              <div class="col-lg-4 col-md-6 col-sm-6 col-12 mt--40">
-                <div class="portfolio">
-                  <div class="thumbnail-inner">
-                    <div class="thumbnail image-3"></div>
-                    <div class="bg-blr-image image-3"></div>
-                  </div>
-                  <div class="content">
-                    <div class="inner">
-                      <p>Development</p>
-                      <h4>
-                        <a href="/portfolio-details"
-                          >Getting tickets to the big show</a
-                        >
-                      </h4>
-                      <div class="portfolio-button">
-                        <a class="rn-btn" href="/portfolio-details">Explore</a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <!-- End Single Portfolio  -->
-
-              <!-- Start Single Portfolio  -->
-              <div class="col-lg-4 col-md-6 col-sm-6 col-12 mt--40">
-                <div class="portfolio">
-                  <div class="thumbnail-inner">
-                    <div class="thumbnail image-2"></div>
-                    <div class="bg-blr-image image-2"></div>
-                  </div>
-                  <div class="content">
-                    <div class="inner">
-                      <p>Development</p>
-                      <h4>
-                        <a href="/portfolio-details"
-                          >Getting tickets to the big show</a
-                        >
-                      </h4>
-                      <div class="portfolio-button">
-                        <a class="rn-btn" href="/portfolio-details">Explore</a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <!-- End Single Portfolio  -->
             </div>
+            <!-- End Gallery Area  -->
           </div>
         </div>
         <!-- Start Portfolio Area  -->
@@ -442,5 +313,18 @@
     <script src="/assets/js/vendor/jquery-one-page-nav.js"></script>
     <!-- Main JS -->
     <script src="/assets/js/main.js"></script>
+
+    <!-- Custom JS -->
+    <script src="/assets/js/portfolio/portfolio-service.js"></script>
+    <script async>
+      (async () => {
+        portfolio = (await getPortfolio()) || [];
+
+        renderPortfolio({ portfolio: portfolio });
+        // document.getElementById(
+        //   "number-of-products"
+        // ).innerText = `พบสินค้า ${filterProducts.length} รายการ`;
+      })();
+    </script>
   </body>
 </html>

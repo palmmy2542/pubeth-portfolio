@@ -1,0 +1,160 @@
+{
+  "data": [
+    {
+      "id": "211db85d-da26-4c0f-b08b-259214979ce0",
+      "type": "WEBSITE",
+      "title": "KidDi",
+      "[th]sub_title": "เว็บไซต์สำหรับแพทย์ผู้เชี่ยวชาญด้านไตและพยาบาล ในการจัดการการนัดหมายผู้ป่วย และเรียงลำดับความสำคัญการนัดหมายด้วย Machine Learning",
+      "[en]sub_title": "An website for nephrologists and nurses to manage the schedule and prioritization of kidney disease patient therapy with machine learning",
+      "[th]description": "เป็นโปรเจ็คในวิชา Individual Study ของคณะ ที่ได้นำ use case จริงมา ซึ่งปัญหาของคุณหมอคือ เขามีความลำบากในการนัดหมายผู้ป่วย และไม่สามารถบอกได้ว่าผู้ป่วยคนไหนจำเป็นจะต้องมีการนัดหมายอย่างเร็วที่สุด หรือจำนวนการนัดหมายที่ถี่กว่าคนอื่น ทางเราจึงเสนอ solution ด้วยการนำ Machine Learning มาวิเคราะห์สารที่ได้จากการตรวจคนไข้ซึ่งในทีนี้คือคนไข้โรคไต และนำมาแสดงผลเป็น Dashboard อย่างง่ายให้คุณหมอดูภาพรวมของคนไข้ และมีการ Prediction ว่าคนไข้คนไหนควรจะได้รับการนัดหมายเร็วที่สุด",
+      "[en]description": "This is a project for an Individual Study course in which I have utilized a real use case. The problem faced by doctors is the difficulty in scheduling patient appointments and an inability to determine which patients require immediate scheduling or more frequent appointments than others. Therefore, our proposed solution involves implementing Machine Learning to analyze data obtained from kidney disease patient examinations. We will present the findings in a simple dashboard for doctors to have an overview of their patients. Additionally, the system will provide predictions on which patients should be scheduled for appointments as soon as possible.",
+      "cover_image": "https://pubeth-portfolio.s3.ap-southeast-1.amazonaws.com/KidDi/kiddi_01.png",
+      "image_showcase_max_number": 3,
+      "status": "OFF"
+    },
+    {
+      "id": "c34daa92-9cd0-49e5-9ef8-5d09f0ea5506",
+      "type": "WEBSITE",
+      "title": "DermDD",
+      "[th]sub_title": "เว็บไซต์สำหรับแพทย์ผู้เชี่ยวชาญด้านผิวหนัง เพื่อใช้ในการวินิจฉัยโรคผิวหนังผ่านเว็บไซต์ และนัดหมายคนไข้กับแพทย์ใกล้เคียง โดยเราได้มีการนำ Machine Learning เพื่อช่วยแพทย์ผิวหนังในการวินิจฉัยโรคเบื้องต้นผ่านรูปภาพ",
+      "[en]sub_title": "Dermatology Web Platform: A specialized website designed for dermatologists to conduct preliminary skin disease diagnoses through the web interface. The platform also allows patients to schedule appointments with nearby dermatologists. Leveraging Machine Learning, our system aids dermatologists in conducting initial disease assessments based on images.",
+      "[th]description": "เป็นโปรเจ็คจบการศึกษา โดยปัญหาของคุณหมอคือ เขาไม่สามารถเข้าถึงผู้ป่วยที่อยู่ห่างไกลโรงพยาบาลได้ ซึ่งพบว่ามีผู้ป่วยโรคผิวหนังนอกระบบค่อนข้างเยอะในประเทศ ทางทีมจึงเสนอ solution ด้วยการพัฒนาเว็บไซต์ให้กับทางโรงพยาบาล โดยจะแบ่งหน้าที่ของผู้ใช้เว็บไซต์เป็น 2 ส่วน คือ 1. อาสาสมัคร 2. แพทย์ผิวหนัง โดยอาสาสมัครจะทำหน้าที่เข้าตรวจตามชุมชนต่าง ๆ และทำการส่ง case โรคให้แพทย์ผิวหนังผ่านเว็บไซต์ของเรา หลังจากนั้นคุณหมอจะทำการวินิจฉัยและตอบกลับผ่านทางเว็บไซต์ให้กับอาสาสมัครไปประสานงานต่อ ไม่ว่าจะเป็น การนัดหมายพบแพทย์, รอดูอาการ เป็นต้น",
+      "[en]description": "This is a graduation project, and the doctor's problem is that they cannot access patients who are far from the hospital. It has been observed that there are a considerable number of patients with dermatological conditions outside the healthcare system in the country. The team proposes a solution by developing a website for the hospital. The website will have two user roles: 1. Volunteers and 2. Dermatologists. Volunteers will be responsible for conducting examinations in various communities and sending case information to dermatologists through the website. Afterward, the dermatologist will diagnose and respond to the volunteers through the website, coordinating further actions such as scheduling appointments or monitoring symptoms.",
+      "cover_image": "https://pubeth-portfolio.s3.ap-southeast-1.amazonaws.com/DermDD/dermdd_01.png",
+      "image_showcase_max_number": 4,
+      "status": "ON"
+    },
+    {
+      "id": "c387bb5f-200c-4021-836f-b406a9b4bdd2",
+      "type": "WEBSITE",
+      "title": "Planet",
+      "[th]sub_title": "เว็บไซต์ที่ทำการจำลองการส่งผ่านของมูลแบบ IoT ด้วยระบบดาวเทียม ที่จะทำการแสดงผลสภาพอากาศ, แก๊ส, สภาพดิน แบบ Realtime เพื่อทำการวิเคราะห์ว่า ดาวเคราะห์ดวงไหนในระบบสุริยะจักรวาล สามารถมาทดแทนโลกปัจจุบันได้",
+      "[en]sub_title": "A simulated IoT data transmission website using satellite systems will display real-time weather conditions, gas levels, and soil conditions. This is aimed at analyzing which planets in the solar system can potentially replace the current Earth. The website will provide a comprehensive view of the environmental data collected from the simulated IoT devices, allowing users to assess the suitability of different celestial bodies within the solar system.",
+      "[th]description": "เป็นโปรเจ็คในวิชาเรียน Wireless ที่เราจะนำเสนอการประยุกต์ใช้ระบบ IoT ในมุมของการหาแหล่งที่อยู่อาศัยใหม่ให้กับมนุษยชาติในอนาคต โดยเราได้จำลองการส่งของมูลผ่านดาวเทียม และนำมาแสดงผลเป็น Dashboard ภายในเว็บไซต์ โดยเราจะเปรียบเทียบกับดาวทุกดวงในระบบสุริยะจักรวาล เพื่อหาว่าดาวดวงไหนมีสภาพอากาศที่เหมาะสมกับมนุษย์บ้าง โดยเรามีการใช้ MTQQ ในการส่งผ่านของมูลแบบ Realtime นั่นเอง",
+      "[en]description": "This project for the Wireless course involves presenting the application of IoT systems in the context of finding new habitable locations for humanity in the future. We have simulated the transmission of data via satellites and displayed it on a dashboard within a website. The comparison is made with all the planets in the solar system to determine which ones have suitable weather conditions for human habitation. We utilize MQTT for real-time data transmission.",
+      "cover_image": "https://pubeth-portfolio.s3.ap-southeast-1.amazonaws.com/Planet/planet_01.png",
+      "image_showcase_max_number": 1,
+      "status": "OFF"
+    },
+    {
+      "id": "5bd3cfaf-383f-4342-9456-122238f1079a",
+      "type": "WEBSITE",
+      "title": "Nitad",
+      "[th]sub_title": "เว็บไซต์สำหรับจัดแสดงผลงานของนิสิตคณะวิศวกรรมศาสตร์ในปี 2021",
+      "[en]sub_title": "Website for displaying the works of engineering students in the year 2021.",
+      "[th]description": "โปรเจ็คนี้เป็นการอาสาสมัครทำให้กับคณะวิศวกรรมศาสตร์ โดยเราจะทำระบบหลังบ้านในการอัปโหลดข้อมูลต่าง ๆ เกี่ยวกับผลงานของนิสิต และมีหน้าบ้านในการทำเป็นพิพิธภัณฑ์แสดงผลงาน",
+      "[en]description": "This project is a volunteer initiative for the Faculty of Engineering. We will develop a backend system for uploading various information about students' works and create a frontend to serve as an exhibition museum showcasing the works.",
+      "cover_image": "https://pubeth-portfolio.s3.ap-southeast-1.amazonaws.com/Nitad/nitad_01.png",
+      "image_showcase_max_number": 3,
+      "status": "OFF"
+    },
+    {
+      "id": "b6648fd2-984c-4184-8929-a178f392415e",
+      "type": "WEBSITE",
+      "title": "QASD",
+      "[th]sub_title": "เว็บไซต์สำหรับการวิเคราะห์คุณภาพของสิ่งก่อสร้างจากรูปภาพ",
+      "[en]sub_title": "Website for analyzing the quality of construction from images.",
+      "[th]description": "เว็บไซต์นี้ถูกใช้ในภาควิชาวิศวกรรมศาสตร์โยธา โดยความต้องการของลูกค้าคือต้องการเว็บไซต์ที่จะคอยช่วยประมวลผลรูปภาพที่อัปโหลดเข้าระบบ และตอบกลับมาว่าโครงสร้างสิ่งก่อสร้างนี้มีความปลอดภัยในระดับไหน โดยทางเราจะรับผิดชอบเฉพาะในส่วนของ Frontend และ Backend เท่านั้น ทางภาควิชานั้นได้นำ Machine Learning API มาต่อเข้ากับระบบของเรา",
+      "[en]description": "This website is used in the Civil Engineering Department, where the customer's requirement is a website that processes uploaded images and provides feedback on the safety level of the construction structure. We are responsible for both Frontend and Backend. The department has integrated a Machine Learning API into our system.",
+      "cover_image": "https://pubeth-portfolio.s3.ap-southeast-1.amazonaws.com/QASD/qasd_01.png",
+      "image_showcase_max_number": 2,
+      "status": "ON"
+    },
+    {
+      "id": "7f87f3fc-be31-427d-9daf-70ee2aefc24b",
+      "type": "MOBILE_APPLICATION",
+      "title": "TCASter App",
+      "[th]sub_title": "แอปพลิเคชันสำหรับนักเรียนมัธยมที่ต้องการจะสอบเข้ามหาวิทยาลัยในประเทศไทย",
+      "[en]sub_title": "Application for high school students preparing for university entrance exams in Thailand.",
+      "[th]description": "แอปพลิเคชันนี้ถูกจัดทำเพื่อให้นักเรียนมัธยมศึกษา สามารถเข้าถึงข้อมูลการสอบเข้ามหาวิทยาลัยในประเทศได้ภายในแอปพลิเคชันเดียว โดยจะมี Feature หลัก ๆ ดังนี้ 1. แสดงผลข้อมูลมหาวิทยาลัยในประเทศ 2. คำนวณโอกาสสอบติด 3. คำนวณคะแนนสอบ เป็นต้น",
+      "[en]description": "This application is developed for high school students to access university entrance exam information in Thailand. Key features include displaying university data, calculating exam success probability, and estimating exam scores.",
+      "cover_image": "https://pubeth-portfolio.s3.ap-southeast-1.amazonaws.com/TCASter_APP/tcaster_app_01.PNG",
+      "image_showcase_max_number": 4,
+      "status": "ON"
+    },
+    {
+      "id": "ec8b7386-276c-4505-aaef-7e4105b05555",
+      "type": "WEBSITE",
+      "title": "Nayoo Ai Dashboard",
+      "[th]sub_title": "เว็บไซต์สำหรับการแสดงผลสินทรัพย์ที่อยู่ระบบ nayoo เป็น scatter map และจัดทำ table สำหรับการเปรียบเทียบราคาในแต่ละสินทรัพย์",
+      "[en]sub_title": "Website for displaying assets in the Nayoo system as a scatter map and creating a table for comparing prices of each asset.",
+      "[th]description": "เว็บไซต์นี้ถูกใช้ภายในองค์กรของบริษัท nayoo โดยไว้สำหรับการนำข้อมูลสินทรัพย์มาแสดงเป็นลักษณธของ Scatter Map และสามารถทำการเปรียบเทียบสินทรัพย์ข้างเคียงได้ รวมถึงมีการนำข้อมูล click event มาจัดทำเป็น Visualization เพื่อหา Insight ของลูกค้าด้วย",
+      "[en]description": "This website is used within the organization of Nayoo Company to display asset data as a Scatter Map, allowing comparison of neighboring assets. It also utilizes click event data to create visualizations for customer insights.",
+      "cover_image": "https://pubeth-portfolio.s3.ap-southeast-1.amazonaws.com/Nayoo_Ai_Dashboard/nayoo_01.png",
+      "image_showcase_max_number": 2,
+      "status": "ON"
+    },
+    {
+      "id": "4074cc49-f79a-4f93-9a77-86f19e46087e",
+      "type": "WEBSITE",
+      "title": "Haus64 Packing",
+      "[th]sub_title": "เว็บไซต์สำหรับการทำระบบ Packing สินค้า",
+      "[en]sub_title": "Website for creating a packing system for products.",
+      "[th]description": "เว็บไซต์นี้จัดทำเพื่อช่วยเหลือระบบการ Packing สินค้าหลังบ้านของบริษัท Haus64 เพื่อช่วยอำนวยความสะดวกให้กับพนักงาน Packing สินค้า และเป็นการเก็บข้อมูลไว้ในระบบ",
+      "[en]description": "This website is designed to assist the packing system for Haus64 Company, streamlining the packing process and providing convenience for packing staff. It also serves as a data storage system.",
+      "cover_image": "https://pubeth-portfolio.s3.ap-southeast-1.amazonaws.com/Haus64_Packing/haus64_packing_01.png",
+      "image_showcase_max_number": 2,
+      "status": "ON"
+    },
+    {
+      "id": "f80543c6-8180-44d1-b048-38022035eea6",
+      "type": "WEBSITE",
+      "title": "Higher Education Sandbox",
+      "[th]sub_title": "เว็บไซต์สำหรับคณะกรรมการดูแลหลักสูตรของคณะวิศวกรรมศาสตร์ สาขาคอมพิวเตอร์ จุฬาลงกรณ์มหาวิทยาลัย ที่จะใช้ในการประเมินหลักสูตรและข้อเสนอการศึกษา",
+      "[en]sub_title": "Website for the committee overseeing the curriculum of the Computer Engineering Department at Chulalongkorn University, used for evaluating courses and educational proposals.",
+      "[th]description": "เว็บไซต์สำหรับคณะกรรมการดูแลหลักสูตรของคณะวิศวกรรมศาสตร์ สาขาคอมพิวเตอร์ จุฬาลงกรณ์มหาวิทยาลัย ที่จะใช้ในการประเมินหลักสูตรและข้อเสนอการศึกษา นอกจากนี้ยังมีการนำข้อมูลที่ถูกใส่เป็นข้อเสนอหลักสูตรมาแสดงผลแบบ Visualization เพื่อเปรียบเทียบข้อมูลระหว่างปีการศึกษา",
+      "[en]description": "Website for the committee overseeing the curriculum of the Computer Engineering Department at Chulalongkorn University. It is used to evaluate courses and educational proposals, presenting course data in a visual format for year-to-year comparisons.",
+      "cover_image": "https://pubeth-portfolio.s3.ap-southeast-1.amazonaws.com/Higher_Education_Sandbox/higher_ed_sandbox_07.png",
+      "image_showcase_max_number": 8,
+      "status": "ON"
+    },
+    {
+      "id": "aae9d1a3-631d-42c0-a56a-9e86634d1056",
+      "type": "WEBSITE",
+      "title": "Examhub",
+      "[th]sub_title": "เว็บไซต์สำหรับการทำข้อสอบออนไลน์",
+      "[en]sub_title": "Website for conducting online exams.",
+      "[th]description": "เว็บไซต์นี้จัดทำเพื่อให้นักเรียนมัธยมศึกษา ได้ฝึกฝนทำโจทย์ โดยทางระบบสามารถจับเวลาเพื่อให้สถานการณ์สมจริงได้ รวมถึงมีการขายหนังสืออิเล็กทรอนิกส์ที่ด้านในประกอบไปด้วยข้อสอบที่นักเรียนสามารถนำเข้ามาสอบในระบบเราได้ด้วยเช่นกัน",
+      "[en]description": "This website is created for high school students to practice exam questions. The system includes a timer for simulating real exam conditions and offers electronic books containing exam questions that students can import for practice.",
+      "cover_image": "https://pubeth-portfolio.s3.ap-southeast-1.amazonaws.com/Examhub/examhub_01.png",
+      "image_showcase_max_number": 6,
+      "status": "ON"
+    },
+    {
+      "id": "67bad05a-c830-44cd-826b-8a3395037ee1",
+      "type": "WEBSITE",
+      "title": "LOLxExamhub",
+      "[th]sub_title": "เว็บไซต์สำหรับการประเมินผลอาชีพที่เหมาะกับตนเอง",
+      "[en]sub_title": "Website for assessing career compatibility.",
+      "[th]description": "เว็บไซต์นี้ใช้สำหรับการประเมินตนเอง เพื่อค้นหาอาชีพที่เหมาะกับตัวตน โดยจะถูกใช้ใน Campaign ของบริษัท",
+      "[en]description": "This website is used for self-assessment to find a suitable career path. It will be employed in a company's campaign.",
+      "cover_image": "https://pubeth-portfolio.s3.ap-southeast-1.amazonaws.com/LoLxExamhub/lol_05.png",
+      "image_showcase_max_number": 5,
+      "status": "ON"
+    },
+    {
+      "id": "839f9dbf-e867-41be-9315-95f092c746b1",
+      "type": "WEBSITE",
+      "title": "MyPath",
+      "[th]sub_title": "เว็บไซต์สำหรับการแสดงผลช้อมูลความคืบหน้าการเรียนรู้ในระบบ Learn Anywhere",
+      "[en]sub_title": "Website for displaying progress data in the Learn Anywhere learning system.",
+      "[th]description": "เว็บไซต์นี้ใช้สำหรับแสดงผลข้อมูลความคืบหน้าการเรียน และการสอบเก็บคะแนนภายในระบบ Learn Anywhere",
+      "[en]description": "This website is used to display progress and exam scores within the Learn Anywhere system.",
+      "cover_image": "https://pubeth-portfolio.s3.ap-southeast-1.amazonaws.com/MyPath/mypath_01.png",
+      "image_showcase_max_number": 1,
+      "status": "ON"
+    },
+    {
+      "id": "33eb955f-b8b7-40aa-b075-e142ebe8f012",
+      "type": "WEBSITE",
+      "title": "Chonakorn Packing",
+      "[th]sub_title": "เว็บไซต์สำหรับจัดแสดงสินค้าในบริษัท Chonakorn Packing",
+      "[en]sub_title": "E-commere website for displaying chonakorn's products",
+      "[th]description": "เว็บไซต์สำหรับแสดงสินค้าในบริษัท Chornakorn โดยทางเรามีการวาง Semantic UI เพื่อรองรับสำหรับการทำ SEO Friendly ในอนาคตด้วย",
+      "[en]description": "Website for displaying products in Chornakorn Company. We have implemented Semantic UI to ensure future SEO-friendly capabilities.",
+      "cover_image": "https://pubeth-portfolio.s3.ap-southeast-1.amazonaws.com/Chornakorn_Packing/chornakorn_packing_02.png",
+      "image_showcase_max_number": 4,
+      "status": "ON"
+    }
+  ]
+}
