@@ -218,5 +218,27 @@
         renderRandomPortfolio({ portfolio });
       })();
     </script>
+
+    <!-- Analytics -->
+    <script type="module">
+      import { initializeApp } from "https://www.gstatic.com/firebasejs/9.15.0/firebase-app.js";
+      import {
+        getAnalytics,
+        logEvent,
+      } from "https://www.gstatic.com/firebasejs/9.15.0/firebase-analytics.js";
+
+      const firebaseConfig = {
+        apiKey: "AIzaSyAa37_BTnZBumUYpVwUhamFOyok0vntkTQ",
+        authDomain: "my-portfolio-c2579.firebaseapp.com",
+        projectId: "my-portfolio-c2579",
+        storageBucket: "my-portfolio-c2579.appspot.com",
+        messagingSenderId: "1072177841087",
+        appId: "1:1072177841087:web:d7338e3fdecd4bc8c3d70a",
+        measurementId: "G-XP8Z2S2X7V",
+      };
+      // Initialize Firebase
+      const app = initializeApp(firebaseConfig);
+      const analytics = getAnalytics(app);
+    </script>
   </body>
 </html>
