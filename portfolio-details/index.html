@@ -239,6 +239,12 @@
       // Initialize Firebase
       const app = initializeApp(firebaseConfig);
       const analytics = getAnalytics(app);
+
+      var queryString = window.location.search;
+
+      var searchParams = new URLSearchParams(queryString);
+      var id = searchParams.get("id")?.split(",")[0] || [];
+      analytics.logEvent("port_id", { port_id: id });
     </script>
   </body>
 </html>
